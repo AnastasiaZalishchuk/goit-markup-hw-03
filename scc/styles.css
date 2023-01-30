@@ -198,7 +198,7 @@ img {
   line-height: calc(40 / 36);
   color: var(--color-navy-blue-modal);
   margin: auto;
-  margin-top: 32px 8px;
+  margin: 32px 8px;
 }
 .container-wrapper {
   width: 264px;
