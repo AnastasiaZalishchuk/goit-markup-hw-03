@@ -87,7 +87,7 @@ img {
   margin-left: auto;
 }
 .header-contacts-list {
-  column-gap: 15px;
+  column-gap: 40px;
 }
 
 .header-item-link:hover,
@@ -132,12 +132,12 @@ img {
   color: var(--color-white);
   font-weight: 500;
   display: inline-flex;
-  min-width: 169px;
-  min-height: 56px;
+  padding: 16px 32px;
   align-items: center;
   justify-content: center;
   border: none;
   border-radius: 4px;
+  margin-bottom: 48px;
 }
 .hero-modal-btn:hover,
 .hero-modal-btn:focus {
@@ -147,7 +147,7 @@ img {
 
 /* DESCRIPTION ABOUT CONPANY */
 .descr {
-  margin: 120px 0;
+  padding: 120px 0 120px 0; 
 }
 .descr-list {
   display: flex;
@@ -162,7 +162,9 @@ img {
 }
 
 /* SERVICES */
-
+.services{
+  padding-bottom: 120px;
+}
 .services-title {
   font-weight: 700;
   font-size: 36px;
@@ -178,6 +180,13 @@ img {
 }
 
 /* Team */
+.team {
+  background: #f4f4fd;
+  padding: 120px 0px;
+}
+.team-item {
+  background-color: #ffffff;
+}
 
 .team-subtitle {
   font-weight: 700;
@@ -185,7 +194,11 @@ img {
   line-height: calc(40 / 36);
   text-align: center;
   color: var(--color-grey);
-  margin: 120px 0 72px 0;
+  margin: 0px 0 72px 0;
+}
+.bottom-part {
+  padding: 32px 16px;
+  text-align: center;
 }
 .team-list {
   display: flex;
@@ -197,8 +210,6 @@ img {
   font-size: 20px;
   line-height: calc(40 / 36);
   color: var(--color-navy-blue-modal);
-  margin: auto;
-  margin: 32px 8px;
 }
 .container-wrapper {
   width: 264px;
@@ -212,6 +223,7 @@ img {
 
 .footer {
   background: var(--color-navy-blue-modal);
+  padding: 100px;
 }
 
 .footer-logo {
@@ -232,10 +244,15 @@ img {
   color: var(--color-cornflower);
   width: 264px;
   height: 72px;
-  padding-bottom: 100px;
+  margin-top: 16px;
 }
 
 /* portfolio */
+
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 
 .portfolio-caption {
   font-weight: 500;
@@ -247,18 +264,20 @@ img {
 .portfolio-item-btn {
   padding: 12px 24px;
   border: none;
-  background-color: var(--color-cloud);
+  color: var(--color-iris);
+  border-radius: 4px;
 }
 
 .portfolio-item-btn:focus,
 .portfolio-item-btn:hover {
   background-color: var(--color-ocean);
-  color: var(--color-white);
   cursor: pointer;
+  color: #ffffff;
 }
 .portfolio-text {
   color: var(--color-slate);
 }
+
 .portfolio-list-btn {
   color: var(--color-iris);
   align-items: center;
@@ -266,14 +285,15 @@ img {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  margin-top: 96px;
   margin-bottom: 72px;
+
 }
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  margin-top: 72px;
 }
 
 .portfolio-list-item {
@@ -286,6 +306,7 @@ img {
   border-top: none;
 }
 
-.portfolio-img {
-  margin: 72px 0 120px 0;
+.portfolio-bottom{
+  padding: 32px 0px;
 }
+
