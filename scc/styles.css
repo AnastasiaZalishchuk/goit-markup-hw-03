@@ -210,6 +210,7 @@ img {
   font-size: 20px;
   line-height: calc(40 / 36);
   color: var(--color-navy-blue-modal);
+  margin-bottom: 8px;
 }
 .container-wrapper {
   width: 264px;
@@ -260,6 +261,7 @@ img {
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
+  margin-bottom: 8px;
 }
 .portfolio-item-btn {
   padding: 12px 24px;
