@@ -125,7 +125,7 @@ img {
   width: 500px;
   color: var(--color-white);
   margin: auto;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 .hero-modal-btn {
   background: var(--color-iris);
@@ -137,7 +137,7 @@ img {
   justify-content: center;
   border: none;
   border-radius: 4px;
-  margin-bottom: 48px;
+
 }
 .hero-modal-btn:hover,
 .hero-modal-btn:focus {
@@ -203,7 +203,7 @@ img {
 .team-list {
   display: flex;
   column-gap: 24px;
-  padding-bottom: 120px;
+  
 }
 .team-name {
   font-weight: 500;
@@ -236,7 +236,7 @@ img {
   display: flex;
   text-transform: uppercase;
   color: var(--color-iris);
-  padding-top: 100px;
+  
 }
 .footer-logo-studio {
   color: var(--color-cloud);
@@ -268,6 +268,15 @@ img {
   border: none;
   color: var(--color-iris);
   border-radius: 4px;
+  background: #F4F4FD;
+  border: 1px solid #E7E9FC;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  
 }
 
 .portfolio-item-btn:focus,
@@ -309,6 +318,6 @@ img {
 }
 
 .portfolio-bottom{
-  padding: 32px 0px;
+  padding: 32px 0px 32px 16px;
 }
 
